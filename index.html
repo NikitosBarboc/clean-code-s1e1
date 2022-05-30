@@ -9,15 +9,15 @@
 </head>
 
 <body>
-  <div class="image-and-link"><img src="./eisenhower-matrix.jpg"><a class="link-more-info"
-    href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a></div>
-  <div class="main">
-    <p id="info"><label for="new-task">Add Item</label>
-    <div class="task-row-wrapper"><input id="new-task"
+  <article class="image-and-link"><img src="./eisenhower-matrix.jpg"> <a class="link-more-info"
+    href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a></article>
+  <main class="main">
+    <h1 id="info"><label for="new-task">Add Item</label>
+    <section class="task-row-wrapper"><input id="new-task"
       class="task" type="text">
-      <button>Add</button></div>
-    </p>
-    <h3>Todo</h3>
+      <button>Add</button></section>
+    </h1>
+    <h2>Todo</h2>
     <ul id="incomplete-tasks">
       
       <li><input type="checkbox"><label class="task">Pay Bills</label>
@@ -30,7 +30,7 @@
           Save</button><button class="delete"><img
           src="./remove.svg"></button></li>
     </ul>
-    <h3>Completed</h3>
+    <h2>Completed</h2>
     <ul id="completed-tasks">
       <li><input type="checkbox" checked><label class="task">
         See the Doctor</label><input type="text"
@@ -38,7 +38,7 @@
         <button class="delete"><img src="./remove.svg"></button>
       </li>
     </ul>
-  </div>
+  </main>
   <script  src="app.js"></script>
 </body>
 
