@@ -18,7 +18,8 @@ body {
 }
 
 @media (max-width:768px) {
-.image-and-link { text-align: center;
+.image-and-link { 
+    text-align: center;
 }
 }
 .main {
